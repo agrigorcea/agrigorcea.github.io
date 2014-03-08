@@ -1,0 +1,90 @@
+body {
+    font-size: 100%;
+    line-height: 4em;
+    font-family:Georgia;
+}
+
+.wrap {
+    width: 71%;
+}
+
+@media only screen and (min-width: 840px) {
+    body {
+        font-size: 150%;
+    }
+    .wrap {
+        max-width: 596px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    body {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 70%;
+    }
+}
+
+#main {
+    width: 100%;
+}
+
+#header {
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+    max-width: 480px;
+    width: 90%;
+}
+
+#header h1 {
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    margin: auto;
+    margin-top: 0.5em;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#header p {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+#social {
+    text-align: center;
+}
+#social .icon {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+.linkedin {
+    background-image: url(../img/socialicons/48x48-02/linkedin-icon.png);
+}
